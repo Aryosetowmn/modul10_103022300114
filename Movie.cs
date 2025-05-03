@@ -4,7 +4,7 @@
     {
         public string Title { get; set; }
         public string Director { get; set; }
-        public string genre { get; set; }
-        public string description { get; set; }
+        public List<string> Stars { get; set; }
+        public string Description { get; set; }
     }
 }

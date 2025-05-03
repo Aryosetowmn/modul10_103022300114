@@ -13,22 +13,22 @@
             {
                 Title = "The Shawshank Redemption",
                 Director = "Frank Darabont",
-                genre = "Epic, Period Drama, Prison Drama, Drama",
-                description = "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion."
+                Stars = new List<string> { "Tim Robbins", "Morgan Freeman", "Bob Gunton" },
+                Description = "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion."
             },
             new Movie
             {
                 Title = "The Godfather",
                 Director = "Francis Ford Coppola",
-                genre = "Epic, Gangster, Tragedy, Crime, Drama",
-                description = "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+                Stars = new List<string> { "Marlon Brando", "Al Pacino", "James Caan" },
+                Description = "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
             },
             new Movie
             {
                 Title = "The Dark Knight",
                 Director = "Christopher Nolan",
-                genre = "Action Epic, Epic, Superhero, Tragedy, Action, Crime, Drama, Thriller",
-                description = "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness."
+                Stars = new List<string> { "Christian Bale", "Heath Ledger", "Aaron Eeckhart" },
+                Description = "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness."
             },
         };
 
